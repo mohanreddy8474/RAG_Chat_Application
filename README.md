@@ -20,23 +20,23 @@ This repository contains a chat application implemented in a Jupyter Notebook, u
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/chat-rag-app.git
-cd chat-rag-app
+    ```bash
+    git clone https://github.com/yourusername/chat-rag-app.git
+    cd chat-rag-app
+    ```
 
+2. Install the required Python packages:
 
-2.Install the required Python packages:
+    ```bash
+    pip install pinecone-client
+    pip install protoc_gen_openapiv2
+    pip install -q -U google-generativeai
+    pip install tiktoken
+    ```
 
-```bash
-pip install pinecone-client
-pip install protoc_gen_openapiv2
-pip install -q -U google-generativeai
-pip install tiktoken
+## Usage
 
-
-Usage
-
-Step 1: Initialize Pinecone and OpenAI
+### Step 1: Initialize Pinecone and OpenAI
 
 In the first cell of your Jupyter Notebook, initialize Pinecone and OpenAI. Refer to the initialization code for details.
 
