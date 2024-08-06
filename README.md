@@ -25,7 +25,7 @@ git clone https://github.com/yourusername/chat-rag-app.git
 cd chat-rag-app
 
 
-2.	Install the required Python packages:
+2.Install the required Python packages:
 
 ```bash
 pip install pinecone-client
