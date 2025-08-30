@@ -1,11 +1,11 @@
 # Chat Application with Retrieval-Augmented Generation (RAG)
 
-This repository contains a chat application implemented in a Jupyter Notebook, utilizing Retrieval-Augmented Generation (RAG) with OpenAI's GPT-4 model. The application uses Pinecone to fetch relevant context from a predefined conversation history.
+This repository contains a chat application implemented in a Jupyter Notebook, utilizing Retrieval-Augmented Generation (RAG) with Gemini model. The application uses Pinecone to fetch relevant context from a predefined conversation history.
 
 ## Features
 
 - Retrieval of relevant historical messages using Pinecone
-- Integration with OpenAI's GPT-4 model to generate responses
+- Integration with Gemini model to generate responses
 - Token limit management using the Hugging Face `transformers` library
 - Easy setup and deployment
 
@@ -14,7 +14,7 @@ This repository contains a chat application implemented in a Jupyter Notebook, u
 - Python 3.7 or higher
 - Jupyter Notebook
 - Pinecone API Key
-- OpenAI API Key
+- Gemini API Key
 
 ## Installation
 
